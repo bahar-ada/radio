@@ -1,16 +1,27 @@
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  font: 112.5%/1.45em georgia, serif, sans-serif;
+  font: 112.5%/1.45em 'IRANSans-web',georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  direction: rtl;
+}
+@font-face {
+  font-family: 'IRANSans-web';
+  src: url('./assets/fonts/iranSans/IRANSans-Medium-web.eot');
+
+  src: url('./assets/fonts/iranSans/IRANSans-Medium-web.eot?#iefix') format('eot'),  /* IE6–8 */
+  url('./assets/fonts/iranSans/IRANSans-Medium-web.woff2') format('woff2'),  /* Chrome36+, Opera24+*/
+  url('./assets/fonts/iranSans/IRANSans-Medium-web.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('./assets/fonts/iranSans/IRANSans-Medium-web.ttf') format('ttf');
+  font-weight: 500;
 }
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: IRANSans-web,Vazir, Inconsolata, Monaco, Consolas, 'Courier New', Courier, monospace;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

@@ -1,0 +1,30 @@
+[
+    {
+
+    "img":"../components/assets/images/radio5.jpg",
+    "alt":"radio5",
+    "name":"بیست و پنج بهمن"   
+},
+{
+
+    "img":"../components/assets/images/radio6.jpg",
+    "alt":"radio6",
+    "name":"بیست وشش بهمن"
+    
+},
+{
+
+    "img":"../components/assets/images/radio7.jpg",
+    "alt":"radio7",
+    "name":"بیست و هفت بهمن"
+   
+},  
+{
+
+    "img":"../components/assets/images/radio8.jpg",
+    "alt":"radio8",
+    "name":"بیست و هشت بهمن"
+
+}
+
+]
